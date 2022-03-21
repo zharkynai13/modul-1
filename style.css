@@ -18,7 +18,7 @@ body {
 
 header {
     background-image: url(img/header.png);
-    width: 100%;
+
 }
 
 .header-nav {
@@ -39,6 +39,7 @@ header {
 .header-menu a {
     text-decoration: none;
     color: #fff;
+    transition: 0.7s;
 }
 
 .header-menu a:hover {
@@ -91,7 +92,7 @@ header {
     height: 20px;
     border: 1px solid #fff;
     border-radius: 50%;
-
+    
 }
 
 /*------------------------------------------banner---------------------------------------------*/
@@ -191,7 +192,23 @@ h2 {
     list-style: none;
     padding: 5px 0;
 }
+.footer a{
+    color: #fff;
+}
+.cont a {
+    text-decoration: none;
+}
 
 .footer li {
     list-style: none;
+}
+.hr {
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.footer-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
 }
